@@ -27,5 +27,5 @@ for f in bmp gif jpeg jpg png tiff tif; do
     -draw "text 0,0 $f" images/${width}x${height}.$f
 done
 
-echo "Create Example Images! \n
+echo "Create Images! \n
       cd images"
